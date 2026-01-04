@@ -1,0 +1,42 @@
+@font-face {
+  font-family: IBM Plex Mono; /* set name */
+  src: url(../assets/IBMPlexMono-Regular.ttf); /* url of the font */
+}
+
+:root {
+    --main: gray;
+    --accent: white;
+    --accent2: #b3b3b3;
+    --main2: #555555;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: IBM Plex Mono;
+    background-color: black;
+}
+
+body {
+    padding-top: 4em;
+}
+
+* {
+    color:white;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center {
+    text-align: center;
+}
+
+.welcome {
+    margin-inline: 10%;
+}

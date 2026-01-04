@@ -1,0 +1,24 @@
+main-element {
+	display: block; /* Displays rules properly */
+	background-color: var(--main);
+	margin: 1em;
+	margin-inline: 15%;
+	padding: 0.5em;
+
+	border: 2px solid var(--accent);
+	border-radius: 0.5em;
+}
+
+.button {
+	background-color: var(--main2);
+	border: 1px solid var(--accent);
+	border-radius: 0.5em;
+	padding: 0.5em;
+
+	text-decoration: none;
+}
+
+nav div {
+	padding: 1em;
+} 
+
