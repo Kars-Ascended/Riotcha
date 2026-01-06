@@ -1,13 +1,13 @@
 @font-face {
-  font-family: IBM Plex Mono; /* set name */
-  src: url(../assets/IBMPlexMono-Regular.ttf); /* url of the font */
+    font-family: IBM Plex Mono; /* set name */
+    src: url(../assets/fonts/Oxanium-Medium.ttf); /* url of the font */
 }
 
 :root {
-    --main: gray;
+    --main: #505050;
     --accent: white;
     --accent2: #b3b3b3;
-    --main2: #555555;
+    --accent3: #a77844;
 }
 
 html,body {
@@ -21,16 +21,34 @@ body {
     padding-top: 4em;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 * {
     color:white;
+    margin:0;
+}
+
+input {
+    padding:1em;
+    margin-block:1em;
+    width: 100%;
+    background-color: var(--main);
+
+    border-radius: 0.5em;
+
+    &:hover {
+        border: 2px solid var(--accent3);
+    }
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .center {
@@ -39,4 +57,50 @@ body {
 
 .welcome {
     margin-inline: 10%;
+}
+
+.settings-button img {
+  display: block;
+  margin-left: auto;
+
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-panel {
+    margin: 0 !important;
+
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    right: -600px; /* hidden off-screen, adjust width as needed */
+    width: 300px;
+    height: 70vh;
+
+    transition: right 0.3s ease;
+    z-index: 1000;
+
+    background: var(--main);
+	margin: 1em;
+	margin-inline: 15%;
+	padding: 1em;
+
+	border: 2px solid var(--accent);
+	border-radius: 0.5em;
+    
+}
+
+.slide-panel.active {
+  right: 0;
+}
+
+.slide-panel:hover {
+	border: 2px solid var(--accent3);
+
 }

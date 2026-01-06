@@ -2,11 +2,23 @@
 <link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="../css/nav.css">
 
+<title>Riotcha</title>
 
 <nav>
     <div class="vertical-center">
-        <a class="button" href="./index.php">Home</a>
-        <a class="button" href="./downloaders.php">Downloaders</a>
-        <a class="button" href="./test2.php">test2</a>
+        <a class="button click-sound" href="/pages/home.php" data-page>Home</a>
+        <a class="button click-sound" href="/pages/downloaders.php" data-page>Downloaders</a>
+        <a class="button click-sound" href="/pages/formatConversion.php" data-page>Format Converter</a>
+        <a class="button click-sound" href="/pages/extras.php" data-page>Extras</a>
+        <a class="button click-sound" data-page>Test</a>
+    </div>
+    <div class="settings-button">
+        <img id="trigger" src="/assets/images/settings.png">
     </div>
 </nav>
+
+<div class="slide-panel" id="panel">
+    <main-element class="welcome">
+        <h1>test</h1>
+    </main-element>
+</div>

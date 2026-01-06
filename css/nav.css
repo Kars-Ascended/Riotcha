@@ -6,8 +6,12 @@ nav {
     position: fixed;
     top:0;
 
-    border-bottom: 1px solid var(--accent);
-    background-image: url(../assets/banner3.png);
+    border-bottom: 2px solid var(--accent);
+    background-image: url(../assets/images/banner3.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+nav:hover {
+    border-bottom: 2px solid var(--accent3);
 }
