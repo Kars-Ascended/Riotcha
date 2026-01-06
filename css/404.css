@@ -1,0 +1,9 @@
+div.error-404 {
+    padding:0em;margin:0em;
+    position: absolute !important;
+    top:-8em; left:0;
+    height: calc(100% + 8em);
+    width: 100%;
+    background-image: url(/assets/images/404-test.png);
+    border-bottom: 2.5px solid var(--accent3) !important;
+}

@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include '../backend/includes/base-include.php'; ?>
-    <title>Riotcha</title>
-</head>
-<body>
-    <main-element class="welcome">
-        <h1>Title</h1>
-    </main-element>
+<div class="redirect-prompt">
+    <h1>IF YOU CAN SEE THIS YOU ARE NOT LOADING THE PAGE CORRECTLY, PLEASE <a href="/">RETURN</a></h1>
+</div>
 
-    <main-element>
-    </main-element>
-    
-    <!--?php include '../backend/meta/footer.php'; ?>-->
-</body>
-</html>
+<main-element class="welcome">
+    <h1>Title</h1>
+</main-element>
+
+<main-element>
+    <p>test</p>
+</main-element>
+
+<!--?php include '../backend/meta/footer.php'; ?>-->

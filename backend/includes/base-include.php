@@ -13,7 +13,7 @@
         <a class="button click-sound" data-page>Test</a>
     </div>
     <div class="settings-button">
-        <img id="trigger" src="/assets/images/settings.png">
+        <img id="trigger" class="settings-icon" src="/assets/images/settings.png">
     </div>
 </nav>
 
@@ -21,4 +21,8 @@
     <main-element class="welcome">
         <h1>test</h1>
     </main-element>
+</div>
+
+<div class="redirect-prompt">
+    <h1>IF YOU CAN SEE THIS YOU ARE NOT LOADING THE PAGE CORRECTLY, PLEASE <a href="/">RETURN</a></h1>
 </div>

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: IBM Plex Mono; /* set name */
-    src: url(../assets/fonts/Oxanium-Medium.ttf); /* url of the font */
+    font-family: IBM Plex Mono; 
+    src: url(../assets/fonts/Oxanium-Medium.ttf);
 }
 
 :root {
@@ -27,7 +27,7 @@ body {
 
 * {
     color:white;
-    margin:0;
+    margin:0; padding:0;
 }
 
 input {
@@ -68,6 +68,15 @@ input {
   width: auto;
   height: 100%;
   object-fit: cover;
+
+  cursor: pointer;
+  transition: transform 0.3s;
+  transform: rotate(0deg);
+}
+
+/* For spin */
+.settings-icon.is-open {
+  transform: rotate(360deg);
 }
 
 .slide-panel {
@@ -102,5 +111,13 @@ input {
 
 .slide-panel:hover {
 	border: 2px solid var(--accent3);
+}
 
+.redirect-prompt {
+    display: none;
+}
+
+.align {
+  display: flex;
+  vertical-align: middle;
 }

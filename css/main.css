@@ -7,12 +7,14 @@ main-element {
 
 	border: 2px solid var(--accent);
 	border-radius: 0.5em;
+
+	&:hover {
+		border: 2px solid var(--accent3);
+	}
 }
 
-main-element:hover {
-	border: 2px solid var(--accent3);
-    
-    transform: scale(1.000);
+main-element.welcome h1 {
+	text-align: center;
 }
 
 .button, button {
@@ -24,7 +26,7 @@ main-element:hover {
 	text-decoration: none;	
 }
 
-.button:hover, button:hover{
+.button:hover, button:hover {
 	background-color: var(--accent3);
 }
 
@@ -32,3 +34,6 @@ nav div { /* Button Align */
 	padding: 1em;
 } 
 
+.align p {
+  line-height: 2;
+}

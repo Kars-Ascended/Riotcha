@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Site</title>
-  <script defer src="/app.js"></script>
+  <script defer src="/js/base.js"></script>
 </head>
 <body>
   
@@ -11,6 +11,7 @@
 
 <main id="content"></main>
 
+<!-- For Click Sound -->
 <audio id="clickSound" src="/assets/sounds/Kick.wav" preload="auto"></audio>
 
 </body>

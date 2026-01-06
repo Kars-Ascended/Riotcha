@@ -5,9 +5,10 @@ nav {
     background-color: var(--main);
     position: fixed;
     top:0;
+    z-index: 100000;
 
     border-bottom: 2px solid var(--accent);
-    background-image: url(../assets/images/banner3.png);
+    background-image: url(../assets/images/banner.png);
     background-repeat: no-repeat;
     background-position: right;
 }
