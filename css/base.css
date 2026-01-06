@@ -8,6 +8,11 @@
     --accent: white;
     --accent2: #b3b3b3;
     --accent3: #a77844;
+
+    /* Needed for settings */
+    --main-rgb: 80,80,80; /* numeric RGB for frosted backgrounds */
+    --main-element-alpha: 1; /* 0 (transparent) - 1 (opaque) */
+    --main-element-bg: rgba(var(--main-rgb), var(--main-element-alpha));
 }
 
 html,body {
@@ -15,6 +20,7 @@ html,body {
     padding: 0;
     font-family: IBM Plex Mono;
     background-color: black;
+    height: 100%;
 }
 
 body {
@@ -121,3 +127,6 @@ input {
   display: flex;
   vertical-align: middle;
 }
+
+#content {
+  flex: 1;}

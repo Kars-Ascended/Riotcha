@@ -1,9 +1,24 @@
+* {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 div.error-404 {
+    background-color: black !important;
     padding:0em;margin:0em;
     position: absolute !important;
-    top:-8em; left:0;
-    height: calc(100% + 8em);
+    height: calc(100vh - 4em);
     width: 100%;
-    background-image: url(/assets/images/404-test.png);
     border-bottom: 2.5px solid var(--accent3) !important;
+}
+
+div.error-404 div {
+    margin: 3em;
+    font-size: 300%;
+}
+
+img.owl-404 {
+    position: absolute;
+    bottom: -7px;
+    right:75%;
 }

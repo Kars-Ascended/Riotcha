@@ -13,6 +13,7 @@
 
 <!-- For Click Sound -->
 <audio id="clickSound" src="/assets/sounds/Kick.wav" preload="auto"></audio>
+<audio id="clickSound2" src="/assets/sounds/HiHat.wav" preload="auto"></audio>
 
 </body>
 </html>

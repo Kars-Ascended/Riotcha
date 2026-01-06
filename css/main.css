@@ -1,6 +1,9 @@
 main-element {
 	display: block; /* Displays rules properly */
-	background-color: var(--main);
+	background-color: var(--main-element-bg);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	transition: background-color 0.2s ease, border 0.2s ease;
 	margin: 1em;
 	margin-inline: 15%;
 	padding: 1em;
