@@ -10,7 +10,7 @@
         <a class="button click-sound" href="/pages/downloaders.php" data-page>Downloaders</a>
         <a class="button click-sound" href="/pages/formatConversion.php" data-page>Format Converter</a>
         <a class="button click-sound" href="/pages/extras.php" data-page>Extras</a>
-        <a class="button click-sound" data-page>Test</a>
+        <a class="button click-sound" data-page>404 Test</a>
     </div>
 
     <div class="settings-button">

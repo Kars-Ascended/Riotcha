@@ -130,3 +130,12 @@ input {
 
 #content {
   flex: 1;}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+  display: flex;
+  background-color: blue !important;
+}

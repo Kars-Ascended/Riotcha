@@ -20,6 +20,10 @@ main-element.welcome h1 {
 	text-align: center;
 }
 
+.three-grid main-element {
+	margin-inline: 0;
+}
+
 .button, button {
 	background-color: var(--main2);
 	border: 1px solid var(--accent);
